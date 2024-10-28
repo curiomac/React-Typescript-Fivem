@@ -1,0 +1,10 @@
+// This is the config file. Edit to you imagination.
+{
+	"string": "Hello World",
+	"number": 123,
+	"boolean": true,
+	"array": [1, 2, 3],
+	"object": {
+		"something": "value"
+	}
+}
