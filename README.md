@@ -12,7 +12,7 @@ To install and set up the project, follow these steps:
 
     ```bash
     git clone <repository-url>
-    cd MainPower-Plate
+    cd react-typescript-fivem
 
     ```
 

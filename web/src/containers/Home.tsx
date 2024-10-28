@@ -1,4 +1,5 @@
 import * as React from 'react';
+import "./styles.css" 
 
 const Home = () => {
 	React.useEffect(() => {
@@ -15,7 +16,7 @@ const Home = () => {
 
 	return (
 		<div className='flex items-center justify-center min-h-screen'>
-			<div className='text-4xl font-bold text-center'>Edit ok</div>
+			<div className='text-4xl font-bold text-center initial'>Curiomac Engine</div>
 		</div>
 	);
 };
