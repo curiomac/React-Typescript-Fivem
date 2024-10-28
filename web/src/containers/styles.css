@@ -1,4 +1,55 @@
-.initial {
-  font-family: "Bangers", sans-serif !important;
+:root {
+  --cmac-engine-blue: #1d1dff;
+  --cmac-engine-fade: #f0f0f0;
+  --cmac-engine-dark: #000000;
+  --cmac-engine-transparent-70: #00000055;
+  --cmac-font-family-inst: "Bangers", sans-serif !important;
+}
+
+.cmac-inst {
+  font-family: var(--cmac-font-family-inst);
   letter-spacing: 2px;
+}
+
+form {
+  padding: 30px 40px;
+  background-color: var(--cmac-engine-transparent-70);
+  color: var(--cmac-engine-fade);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+form h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+form label {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: -15px;
+}
+
+form input {
+  width: 300px;
+  margin-top: 10px;
+  color: var(--cmac-engine-dark);
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 0px;
+  letter-spacing: 3px;
+}
+
+form button {
+  background-color: var(--cmac-engine-blue) !important;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  letter-spacing: 2.5px;
 }
