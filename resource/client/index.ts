@@ -15,6 +15,12 @@ RegisterCommand("setVisible", () => {
   sendReactMessage("setVisible", true);
 }, false);
 
+// Close tablet function
+RegisterNuiCallback("closeVisible", function () {
+  SetNuiFocus(false, false);
+  sendReactMessage("setVisible", false);
+});
+
 // Register a NUI callback to handle 'hideFrame' event
 RegisterNuiCallbackType("hideFrame");
 on("__cfx_nui:hideFrame", (_: any, cb: any) => {
