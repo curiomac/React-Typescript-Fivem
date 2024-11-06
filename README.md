@@ -1,9 +1,5 @@
 Certainly! Here's the entire `README.md` content formatted in markdown, including all sections and steps:
 
-> **Disclaimer**: This project, including all files and configurations, was developed by Main Power and is not associated with Curiomac Engine or Samuel Aslakson.
-
-# MainPower-Plate
-
 ## Installation
 
 To install and set up the project, follow these steps:
